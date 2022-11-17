@@ -1,0 +1,23 @@
+{
+  "name": "forecast2022api",
+  "version": "1.0.0",
+  "description": "This is the project 'Forecast 2022'",
+  "main": "src/server.ts",
+  "scripts": {
+    "start": "ts-node-dev ./src/server.ts",
+    "build": "tsc",
+    "check-types": "tsc --noEmit"
+  },
+  "author": "Volodymyr Maliugin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  }
+}
